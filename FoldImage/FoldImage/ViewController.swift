@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  ReverseImage
+//  FoldImage
 //
-//  Created by BourneWeng on 15/6/15.
+//  Created by BourneWeng on 15/6/16.
 //  Copyright (c) 2015年 Bourne. All rights reserved.
 //
 
@@ -20,9 +20,11 @@ class ViewController: UIViewController {
         self.pageView.image = UIImage(named: "TaylorSwift.jpg")
     }
 
-    override func prefersStatusBarHidden() -> Bool {
-        return true
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
+
 
 }
 

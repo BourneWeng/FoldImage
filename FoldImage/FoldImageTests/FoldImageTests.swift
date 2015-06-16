@@ -1,15 +1,15 @@
 //
-//  ReverseImageTests.swift
-//  ReverseImageTests
+//  FoldImageTests.swift
+//  FoldImageTests
 //
-//  Created by BourneWeng on 15/6/15.
+//  Created by BourneWeng on 15/6/16.
 //  Copyright (c) 2015年 Bourne. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class ReverseImageTests: XCTestCase {
+class FoldImageTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
